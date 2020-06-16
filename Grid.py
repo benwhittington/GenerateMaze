@@ -2,7 +2,6 @@ from graphics import *
 
 class Grid:
     def __init__(self, squareHeight, width, height, name="test"):
-    
         self.winWidth = width*squareHeight
         self.winHeight = height*squareHeight
         self.width = width
